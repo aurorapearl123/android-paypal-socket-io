@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClientDetailActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/graylight"
+        android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="405dp">
+        <LinearLayout
+            android:background="@drawable/gradientbackground"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_marginTop="45dp"
+                android:id="@+id/id_detail_profile_image"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/user_icon"/>
+            <TextView
+                android:id="@+id/id_detail_full_name"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wiliam Snoe"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="21sp"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_action_camera"/>
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/id_detail_email"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Wiliam@gmail.com"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_action_camera"/>
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/id_detail_phone"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="+266 225 225"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_action_camera"/>
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/_id_detail_send_money"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Send Money"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_action_camera"/>
+            <TextView
+                android:textStyle="bold"
+
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Show all comments"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

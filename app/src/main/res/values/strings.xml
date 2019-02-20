@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PayPalPayment</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="send">SEND</string>
+    <string name="action_send">Send</string>
+    <string name="prompt_message">Message</string>
+    <string name="action_attach">ATTACH</string>
+    <string name="action_capture">CAPTURE IMAGE</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_socket">SocketActivity</string>
+</resources>

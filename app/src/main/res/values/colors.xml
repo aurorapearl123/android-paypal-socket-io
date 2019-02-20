@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="startblue">#4fdcff</color>
+    <color name="endblue">#3266bc</color>
+    <color name="graylight">#d3d3d3</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="price_now">#000</color>
+    <color name="price_before">#4c4c4c</color>
+    <color name="descriptionColor">#9E9E9E</color>
+    <color name="bgBottomNavigation">#fe485a</color>
+</resources>

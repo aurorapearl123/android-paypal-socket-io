@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/id_payment_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_action_attachment"/>
+
+    <com.nex3z.notificationbadge.NotificationBadge
+        android:id="@+id/badge"
+        android:layout_toRightOf="@+id/id_payment_icon"
+        android:layout_alignTop="@+id/id_payment_icon"
+        android:layout_marginLeft="-16dp"
+        android:layout_marginTop="-8dp"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        app:badgeBackground="@drawable/badge_bg_with_shadow"
+        app:maxTextLength="2"
+        >
+
+    </com.nex3z.notificationbadge.NotificationBadge>
+
+
+</RelativeLayout>
